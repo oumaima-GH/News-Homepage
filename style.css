@@ -1,11 +1,17 @@
 *{
     margin: 0;
     padding: 0;
- 
 }
+:root{
+    --k7al: rgb(12, 11, 12);
+    --limoni-7mar: rgb(212, 70, 14); 
+    --sfar-motard: rgb(189, 177, 10);
+    --lbyad: #fff;
+    --gris: rgb(138, 132, 132);
+}
+
 .container{
     margin: 30px 100px;
-
     display: grid;
     grid-template-columns: repeat(3,250px);
     grid-template-rows: repeat(3,250px);
@@ -24,27 +30,24 @@
     object-fit: cover;
 }
 .New{
-    background-color: rgb(12, 11, 12);
+    background-color: var(--k7al);
     display: grid;
     grid-column: 4/5;
     grid-row: 1/3;
     font-family: Arial;
     padding-left: 20px;
-    position: relative;
-    color: white;
+    color: var(--lbyad);
 }
 
 .new-heading {
     font-size: 45px;
-    color: rgb(214, 173, 36);
-
+    color: var(--sfar-motard);
     margin-top: 25px;
 }
 
 .texte{
      padding: 9px;
      margin-right: 10px;
-     
 }
 .texte h3{
     margin-bottom: 15px;
@@ -54,7 +57,7 @@
     font-size: 15px;
     font-weight: 500;
     line-height: 25px;
-    color: rgb(138, 136, 136);
+    color: var(--gris);
 }
 
 .title{
