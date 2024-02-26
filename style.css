@@ -11,21 +11,19 @@
 }
 
 .container{
-    margin: 30px 100px;
+    margin: 20px 100px;
     display: grid;
     grid-template-columns: repeat(3,250px);
     grid-template-rows: repeat(3,250px);
     grid-gap: 20px;
-    background-color: rgb(10, 45, 73);
 }
 .image{
     background-color: aqua;
     display: grid;
     grid-column: 1/4;
-
 }
 .image img{
-    height: 250px;
+    height: 300px;
     width: 790px;
     object-fit: cover;
 }
@@ -37,6 +35,11 @@
     font-family: Arial;
     padding-left: 20px;
     color: var(--lbyad);
+    margin-top: -20px;
+}
+hr{
+   color: var(--gris);
+   margin-top: 25px;
 }
 
 .new-heading {
@@ -59,44 +62,103 @@
     line-height: 25px;
     color: var(--gris);
 }
-
 .title{
-    background-color: rgb(151, 125, 125);
     display: grid;
     grid-column: 1/2;
     width: 300px;
+    margin-top: 60px;
 }
 h2{
+    font-style:inherit;
     font-size: 50px;
     color: var(--k7al);
-    line-height: 48px;
-   font-weight: 900;
+    line-height: 59px;
+    font-weight: 800;
     align-self: center;
-    margin-bottom: 90px;
+    margin-bottom: 30px;
+    max-width: max-content;
 }
-
 .desc{
-    background-color: rgb(218, 238, 228);
     display: grid;
     grid-column: 2/4;
-    width: 515px;
+    width: 520px;
+    margin-top: 60px;
 }
-
 .desc p{
     margin-left: 90px;
     margin-right: 15px;
     padding-left: 30px;
     padding-right: 20px;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 20px;
     color: var(--gris);
-    font-weight: 600;
+    font-weight: 300;
     line-height: 25px;
-    
+}
+.button{ 
+    margin-left: 120px;
+    margin-top: 20px;
+}
+h6{
+    font-weight: 300; 
+    font-size: 16px;
+    color: var(--lbyad);
+}
+button{
+    background-color: rgba(242,92,81,255);
+    height: 50px;
+    width: 200px; 
+    border: none;
 }
 .footer{
-    background-color: blueviolet;
     display: grid;
     grid-column: 1/5;
-
+    display: flex;
+    margin-top: 100px;
 }
+#card1{
+height: 200px;
+width: 370px;
+}
+#card2{
+height: 200px;
+width: 393px;
+}
+#card3{
+height: 200px;
+width: 405px;
+}
+.footer h1{
+    font-size: 40px;
+    color: var(--gris);
+    margin-top: 50px;
+    margin-left: 142px;
+}
+.footer p{
+    font-size: 16px;
+    color: var(--gris);
+    font-weight: 300;
+    position: relative;
+    bottom: 145px;
+    left: 144px;
+    line-height: 28px;
+    margin-right: 185px;
+}
+.footer h4{
+    font-size: 20px;
+    color: var(--k7al);
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    left: 45px;
+    bottom: 145px;
+    margin-right: 08px;
+}
+img{
+    height: 150px;
+    width: 120px;
+    position: relative;
+    bottom: 45px;
+}
+
+    
